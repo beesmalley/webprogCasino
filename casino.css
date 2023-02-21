@@ -1,0 +1,9 @@
+body{
+    background-color: darkred;
+}
+#main{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: bisque;
+    text-align: center;
+}
