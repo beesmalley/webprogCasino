@@ -18,7 +18,7 @@ body{
 #fruits{
     z-index: 5;
     position: relative;
-    animation: slide 3s alternate infinite;
+    animation: example 3s alternate infinite;
     /* animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
