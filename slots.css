@@ -19,7 +19,8 @@ body{
 #fruits{
     z-index: 5;
     position: relative;
-    animation: example 3s alternate infinite;
+    animation: slide 3s alternate infinite;
+
 }
 @keyframes slide {
     0% {
