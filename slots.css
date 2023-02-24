@@ -1,5 +1,11 @@
 body{
-    background-color: rgb(104, 15, 15);
+    background-image: url("/images/casino.jpg");
+    background-size: cover;
+}
+
+#topper{
+  background-color: antiquewhite;
+  border-radius: 30px;
 }
 
 .mach{
@@ -19,28 +25,31 @@ body{
 
 #main{
   display: flex;
-  margin-top:150px;
-  margin-left:-500px;
-
-
+  margin-top:5px;
 }
 h1{
-  margin-left:700px;
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #cover{
+  text-align: center;
+  padding-top:10px;
+  padding-bottom:10px;
   background-color: rgb(251, 255, 24);
   margin-top: 0;
+  margin-right: auto;
+  margin-left:auto;
   border-radius: 20px;
-  z-index: 10;
   visibility: hidden;
-  animation: fade 2s;
-  width:100%;
-  margin-top:10px;
-  height:200px;
+  animation: appear 2s linear 1;
+  animation-delay: 11s;
   animation-fill-mode: forwards;
+  width:100%;
+  height:fit-content;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15pt;
 }
-@keyframes fade {
+@keyframes appear {
   0% {
     opacity: 0;
   }
@@ -59,6 +68,8 @@ h1{
   margin-right: auto;
 
 }
+
+
 .fruits{
     z-index: -3;
     display: flex;
@@ -98,10 +109,14 @@ h1{
     animation: turn 3s alternate 2;
     width:200px;
     height:200px;
-    margin-top:200px;
-    float:left;
-    padding:0;
     
+}
+#panel{
+  background-color: rgb(67, 67, 67);
+  margin-top:100px;
+  float:left; 
+  border-radius: 100%;
+  margin-left:70px;
 }
 @keyframes turn{
   0%{
