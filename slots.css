@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/casino.jpg");
+    background-image: url("images/casino.jpg");
     background-size: cover;
 }
 
@@ -103,7 +103,7 @@ h1{
   }
 
 #button{
-    background-image: url("/images/lever.png");
+    background-image: url("images/lever.png");
     background-repeat: no-repeat;
     background-size: contain;
     animation: turn 3s alternate 2;
