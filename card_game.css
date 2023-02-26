@@ -1,0 +1,72 @@
+body {
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	margin-left: 250px;
+	margin-top: 100px;
+}
+
+
+.chip{
+	bottom: 0;
+	position: absolute;
+}	
+
+.chip2{
+	bottom: 0;
+	margin-left: 750px;
+    position: absolute;
+}	
+
+.cards{
+	margin-left: 350px;
+}
+
+.flip-box {
+  position: absolute;
+  width: 120px;
+  margin-left: 300px;
+}
+
+.flip-box2 {
+  position: absolute;
+  width: 120px;
+  margin-left: 450px;
+}
+
+.flip-box3 {
+  position: absolute;
+  width: 120px;
+  margin-left: 600px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box2:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box3:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Style the back side */
+.flip-box-back {
+  transform: rotateY(180deg);
+}
