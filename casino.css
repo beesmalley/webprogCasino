@@ -1,5 +1,5 @@
 body{
-    background: no-repeat center center fixed url("/images/CasinoRug2.jpg");
+    background: no-repeat center center fixed url("images/CasinoRug2.jpg");
     background-size: cover;
     
     }
@@ -7,7 +7,7 @@ body{
         width: 200px;
         height: 600px; 
         /* background-color: blue; */
-        background:no-repeat center center url("/images/LeftFoot2.png");
+        background:no-repeat center center url("images/LeftFoot2.png");
         background-size: cover;
         float: left;
         
@@ -16,7 +16,7 @@ body{
         width: 200px;
         height: 600px;
         /* background-color: #ff0000; */
-        background: no-repeat center center url("/images/RightFoot2.png");
+        background: no-repeat center center url("images/RightFoot2.png");
         background-size: cover;
         float: right;
         animation-delay: .75s;
@@ -44,7 +44,7 @@ body{
       }
     
       #turnleft{
-        background: no-repeat center center url("/images/arrow2.gif");
+        background: no-repeat center center url("images/arrow2.gif");
           width: 100px;
           height: 100px;
           background-size: contain;
@@ -60,7 +60,7 @@ body{
           transform: rotate(-90deg);   
     }
     #turnright{
-      background: no-repeat center center url("/images/arrow2.gif");
+      background: no-repeat center center url("images/arrow2.gif");
         width: 500px;
         height: 500px;
         background-size: contain;
@@ -73,7 +73,7 @@ body{
     }
     .moveright:hover{
       transform: rotate(90deg);
-    
+
     }
     
     h2{
