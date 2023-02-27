@@ -1,11 +1,7 @@
 body{
     background: no-repeat center center fixed url("/images/CasinoRug2.jpg");
     background-size: cover;
-<<<<<<< Updated upstream
     
-=======
-
->>>>>>> Stashed changes
     }
     #leftFoot{
         width: 200px;
@@ -14,11 +10,7 @@ body{
         background:no-repeat center center url("/images/LeftFoot2.png");
         background-size: cover;
         float: left;
-<<<<<<< Updated upstream
         
-=======
-
->>>>>>> Stashed changes
     }
     #rightFoot{
         width: 200px;
@@ -31,24 +23,17 @@ body{
     }
     #feet{
         width:400px;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         position: absolute;
         bottom:0px;
-        right:650px
+        right:650px;
     }
-<<<<<<< Updated upstream
     
     .walk {
         animation: MoveUpDown 1.5s linear infinite;
       }
       
-=======
-
-    .walk {
-        animation: MoveUpDown 1.5s linear infinite;
-      }
-
->>>>>>> Stashed changes
       @keyframes MoveUpDown {
         0%, 100% {
           transform: translateY(0);
@@ -57,32 +42,20 @@ body{
           transform: translateY(-100px);
         }
       }
-<<<<<<< Updated upstream
     
-=======
-
->>>>>>> Stashed changes
       #turnleft{
         background: no-repeat center center url("/images/arrow2.gif");
           width: 100px;
           height: 100px;
           background-size: contain;
-<<<<<<< Updated upstream
          
-=======
-
->>>>>>> Stashed changes
           margin: left;
           padding-left: 700px;
           padding-top: 400px;
           animation-name: lefty;
           transition: transform 2s;
       }
-<<<<<<< Updated upstream
     
-=======
-
->>>>>>> Stashed changes
       .moveleft:hover{
           transform: rotate(-90deg);   
     }
@@ -96,7 +69,6 @@ body{
         right:200px;
         animation-name: lefty;
           transition: transform 2s;
-<<<<<<< Updated upstream
     
     }
     .moveright:hover{
@@ -104,23 +76,10 @@ body{
     
     }
     
-=======
-
-    }
-    .moveright:hover{
-      transform: rotate(90deg);
-
-    }
-
->>>>>>> Stashed changes
     h2{
       color: rgb(20, 20, 20);
       position: absolute;
       background-color: aqua;
     }
-<<<<<<< Updated upstream
     
     
-=======
-
->>>>>>> Stashed changes
