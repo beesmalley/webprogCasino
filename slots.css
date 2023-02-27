@@ -2,6 +2,23 @@ body{
     background-image: url("images/casino.jpg");
     background-size: cover;
 }
+#return a{
+  text-decoration: none;
+}
+#return a:link{
+  color:white;
+}
+
+#return a:visited{
+  color: white;
+}
+
+#return a:hover{
+  color:aqua;
+}
+#return a:active{
+  color: blueviolet;
+}
 
 #topper{
   background-color: antiquewhite;
@@ -136,22 +153,6 @@ h1{
   position: fixed;
   left: 5px;
 }
-#return a{
-  text-decoration: none;
-}
-#return a:link{
-  color:white;
-}
 
-#return a:visited{
-  color: white;
-}
-
-#return a:hover{
-  color:aqua;
-}
-#return a:active{
-  color: blueviolet;
-}
 
 
