@@ -1,7 +1,6 @@
 body{
     background: no-repeat center center fixed url("images/CasinoRug2.jpg");
     background-size: cover;
-    
     }
     #groupSummary{
       background-color: blue;
@@ -16,6 +15,9 @@ body{
     }
     dd{
       font-style: italic;
+    }
+    #groupSummary a{
+      color:aliceblue;
     }
     #leftFoot{
         width: 200px;

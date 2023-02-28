@@ -1,0 +1,28 @@
+body{
+    background-color: cornflowerblue;
+}
+#summary{
+
+    border-radius: 15px;
+    background-color: lightblue;
+    color:darkblue;
+    width:50%;
+    margin:auto;
+    margin-top:150px;
+    padding:15px;
+}
+dd{
+    font-style: italic;
+}
+dt{
+    font-weight: bold;
+}
+#path{
+    width:150px;
+    margin:auto;
+    text-align: center;
+    padding:10px;
+    margin-top:10px;
+    border-radius: 15px;
+    background-color: lightblue;
+}
